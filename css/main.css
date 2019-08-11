@@ -1,0 +1,175 @@
+/* General ------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base Styles ------------------------------------- */
+
+body {
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Grid ------------------------------------- */
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/* Header ------------------------------------- */
+
+header {
+    background: #ffffff;
+    height: 800px;
+}
+
+nav {
+    overflow: auto;
+    padding: 80px 100px 0 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a, nav ul li a:visited {
+    color: #313131;
+    font-size: 24px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+#intro {
+    padding: 190px 0 0 0;
+    text-align: left;
+}
+
+#intro h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 64px;
+    margin-top: 0px;
+}
+
+#intro h2 span {
+    color: #ff654a;
+}
+
+#intro p {
+    font-size: 48px;
+}
+
+/* About ------------------------------------- */
+
+#about {
+    background: #ff654a;
+    color: #ffffff;
+    height: 1050px;
+    padding: 150px 0 0 0;
+}
+
+#about .container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 45px 0;
+}
+
+#about img {
+    border: #ffffff solid 5px;
+}
+
+#about .emphasized {
+    font-weight: bold;
+}
+
+/* Portfolio ------------------------------------- */
+
+#portfolio {
+    padding: 140px 0 0 0;
+    height: 850px;
+}
+
+#portfolio h2 {
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 100px;
+}
+
+#portfolio h3 {
+    margin-bottom: 0px;
+}
+
+#portfolio p {
+    margin-top: 10px;
+}
+
+/* Footer ------------------------------------- */
+
+footer {
+    background: #ff654a;
+    color: #ffffff;
+    height: 650px;
+    padding: 150px 0 0 0;
+}
+
+footer h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    margin-bottom: 65px;
+}
+
+footer .container {
+    overflow: auto;
+}
+
+footer a, footer a:visited {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+}
+
+footer #social ul{
+    list-style: none;
+    padding-inline-start: 0;
+    margin-bottom: 100px;
+}
+
+footer #social ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+#copyright {
+    clear: both;
+    margin-top: 65px;
+}
