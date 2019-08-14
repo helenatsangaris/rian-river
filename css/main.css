@@ -39,7 +39,6 @@ body {
 
 header {
     background: #ffffff;
-    height: 800px;
 }
 
 nav {
@@ -66,7 +65,7 @@ nav ul li a, nav ul li a:visited {
 }
 
 #intro {
-    padding: 190px 0 0 0;
+    padding: 190px 0 100px 0;
     text-align: left;
 }
 
@@ -89,8 +88,7 @@ nav ul li a, nav ul li a:visited {
 #about {
     background: #ff654a;
     color: #ffffff;
-    height: 1050px;
-    padding: 150px 0 0 0;
+    padding: 150px 0;
 }
 
 #about .container{
@@ -117,7 +115,6 @@ nav ul li a, nav ul li a:visited {
 
 #portfolio {
     padding: 140px 0 0 0;
-    height: 850px;
 }
 
 #portfolio h2 {
@@ -142,7 +139,6 @@ nav ul li a, nav ul li a:visited {
 footer {
     background: #ff654a;
     color: #ffffff;
-    height: 650px;
     padding: 150px 0 0 0;
 }
 
