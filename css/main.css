@@ -13,25 +13,25 @@ html, body {
 
 body {
     color: #313131;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 /* Grid ------------------------------------- */
 
 .full-width {
-    width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
 .half-width {
-    width: 600px;
+    width: 36.5rem;
     float: left;
 }
 
 .third-width {
-    width: 400px;
+    width: 25rem;
     float: left;
 }
 
@@ -39,12 +39,11 @@ body {
 
 header {
     background: #ffffff;
-    height: 800px;
 }
 
 nav {
     overflow: auto;
-    padding: 80px 100px 0 0;
+    padding: 5rem 6rem 0 0;
     text-transform: uppercase;
     width: 100%;
 }
@@ -60,28 +59,28 @@ nav ul li {
 
 nav ul li a, nav ul li a:visited {
     color: #313131;
-    font-size: 24px;
-    margin-left: 25px;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
     text-decoration: none;
 }
 
 #intro {
-    padding: 190px 0 0 0;
+    padding: 11rem 2rem 6rem 2rem;
     text-align: left;
 }
 
 #intro h2 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 64px;
-    margin-top: 0px;
+    font-size: 4rem;
+    margin-top: 0;
 }
 
-#intro h2 span {
+#intro h2 em {
     color: #ff654a;
 }
 
 #intro p {
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 /* About ------------------------------------- */
@@ -89,24 +88,23 @@ nav ul li a, nav ul li a:visited {
 #about {
     background: #ff654a;
     color: #ffffff;
-    height: 1050px;
-    padding: 150px 0 0 0;
+    padding: 10rem 0;
 }
 
 #about .container{
-    width: 600px;
+    width: 37.5rem;
     margin: 0 auto;
 }
 
 #about h2 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: bold;
-    margin: 0 0 45px 0;
+    margin: 0 0 3rem 0;
 }
 
 #about img {
-    border: #ffffff solid 5px;
+    border: #ffffff solid 0.33rem;
 }
 
 #about .emphasized {
@@ -116,21 +114,24 @@ nav ul li a, nav ul li a:visited {
 /* Portfolio ------------------------------------- */
 
 #portfolio {
-    padding: 140px 0 0 0;
-    height: 850px;
+    padding: 10rem 0 0 0;
 }
 
 #portfolio h2 {
     font-family: 'Libre Baskerville', serif;
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
+}
+
+#portfolio .items {
+    overflow: hidden; /* to clear the floated divs inside */
 }
 
 #portfolio h3 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #portfolio p {
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 /* Footer ------------------------------------- */
@@ -138,14 +139,13 @@ nav ul li a, nav ul li a:visited {
 footer {
     background: #ff654a;
     color: #ffffff;
-    height: 650px;
-    padding: 150px 0 0 0;
+    padding: 10rem 0 0 0;
 }
 
 footer h2 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 36px;
-    margin-bottom: 65px;
+    font-size: 2.25rem;
+    margin-bottom: 4rem;
 }
 
 footer .container {
@@ -161,15 +161,15 @@ footer a, footer a:visited {
 footer #social ul{
     list-style: none;
     padding-inline-start: 0;
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
 }
 
 footer #social ul li {
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 1.5rem;
 }
 
 #copyright {
-    clear: both;
-    margin-top: 65px;
+    margin: 0;
+    padding: 4rem 0;
 }
